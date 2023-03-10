@@ -1,2 +1,2 @@
-out: geometry.cpp
-	g++ -Wall -Werror -o geometry.cpp
+out: main.cpp
+	g++ -Wall -Werror -o main main.cpp
