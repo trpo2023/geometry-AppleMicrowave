@@ -25,7 +25,7 @@ void setPoint(int *c, string *pointsArray)
 int main()
 {
   ifstream fin;
-  fin.open("./data.txt");
+  fin.open("./data.wkt");
   if (fin.is_open())
   {
 
@@ -62,7 +62,7 @@ int main()
         cout << "Error at column 0: expected 'circle', 'triangle'" << endl;
         exit(0);
       }
-
+      
       if (bracketsStatus == 0)
       {
         cout << str << endl;

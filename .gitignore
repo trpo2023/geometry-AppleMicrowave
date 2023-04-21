@@ -1,3 +1,10 @@
-*.exe
+*.a
+*.d
+*.o
+*~
+*swp
+*.tmp
+bin/geometry
+test/test
 .vscode/
-*.out
+*.log
